@@ -1,4 +1,4 @@
-# Neural Core
+# Neural Core (Written in C#)
 
 A self-contained neural network library for text ingestion, training, and generation.
 
@@ -39,3 +39,4 @@ var response = await mind.ChatAsync("Your prompt");
 ## License
 
 See LICENSE file for details.
+

@@ -1,4 +1,4 @@
-/*
+/* NOTE: THIS WAS DEVELOPED WITHIN A LARGER PRODUCT, SOME REVISION IS REQUIRED
  * AGENT 3 - NEURAL MIND
  * High-level orchestrator integrating corpus, network, training, and inference
  */
@@ -338,3 +338,4 @@ namespace Agent3.NeuralCore
         private void EmitThought(string thought) => ConsciousnessEvent?.Invoke(this, thought);
     }
 }
+

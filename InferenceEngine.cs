@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Agent3.NeuralCore
+namespace NeuralCore
 {
     public class InferenceConfig
     {
@@ -195,3 +195,4 @@ namespace Agent3.NeuralCore
         private void EmitThought(string thought) => ConsciousnessEvent?.Invoke(this, thought);
     }
 }
+

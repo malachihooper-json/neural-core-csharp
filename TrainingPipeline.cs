@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Text.Json;
 
-namespace Agent3.NeuralCore
+namespace NeuralCore
 {
     public class TrainingMetrics
     {
@@ -165,3 +165,4 @@ namespace Agent3.NeuralCore
         private void EmitThought(string thought) => ConsciousnessEvent?.Invoke(this, thought);
     }
 }
+

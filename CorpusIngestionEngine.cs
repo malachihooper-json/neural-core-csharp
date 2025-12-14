@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using UglyToad.PdfPig;
 
-namespace Agent3.NeuralCore
+namespace NeuralCore
 {
     /// <summary>
     /// Represents a processed document from the corpus.
@@ -681,3 +681,4 @@ namespace Agent3.NeuralCore
         public long AverageDocumentLength { get; set; }
     }
 }
+

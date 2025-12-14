@@ -1,4 +1,4 @@
-/* NOTE: THIS WAS DEVELOPED WITHIN A LARGER PRODUCT, SOME REVISION IS REQUIRED
+/*
  * AGENT 3 - NEURAL MIND
  * High-level orchestrator integrating corpus, network, training, and inference
  */
@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Agent3.NeuralCore
+namespace NeuralCore
 {
     public class NeuralMindState
     {

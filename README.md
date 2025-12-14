@@ -1,6 +1,6 @@
 # Neural Core
 
-Plug-and-play neural network library for text ingestion, training, and generation.
+Plug-and-play neural network library for text ingestion, training, and generation written fully in C#
 
 ## Quick Start
 
@@ -39,3 +39,4 @@ var response = await mind.ChatAsync("Your prompt");
 
 - .NET 8.0+
 - No external dependencies
+
